@@ -2,7 +2,7 @@
 function randomIntFromInterval(min, max) { // min and max included 
     return Math.floor(Math.random() * (max - min + 1) + min)
 }
-let defaultC=4;
+let defaultC=6;
 const nombre=[
     {l:'A', c:defaultC},
     {l: 'g', c:defaultC},
